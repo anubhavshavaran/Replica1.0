@@ -1,0 +1,74 @@
+/* Background Color White */
+:root {
+    /* Colors */
+    --color-white: rgb(255, 255, 255);
+    --color-light-black: rgb(14, 14, 14);
+    --color-black-19: rgb(19, 19, 19);
+    --color-black: rgb(0, 0, 0);
+    --color-light-gray: rgb(176, 176, 176);
+    --color-dark-gray: rgb(24, 24, 24);
+    --color-dark-gray-40: rgb(40, 40, 40);
+    --color-dark-gray-83: rgb(83, 83, 83);
+    --color-purple: rgb(141, 103, 171);
+    --color-orange: rgb(186, 93, 7);
+    --color-dark-green: rgb(39, 133, 106);
+    --color-dark-blue: rgb(30, 50, 100);
+    --color-pink: rgb(232, 17, 91);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border-collapse: collapse;
+    transition: 0.1s all ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Width Styles */
+.full-width {
+    width: 100%;
+}
+
+/* Flex container styles. */
+.flex {
+    display: flex;
+}
+.flex.row {
+    flex-flow: row wrap;
+}
+.flex.column {
+    flex-flow: column;
+}
+/* Justify content. */
+.flex.justify-center {
+    justify-content: center;
+}
+.flex.justify-sp-bt {
+    justify-content: space-between;
+}
+.flex.justify-sp-ard {
+    justify-content: space-around;
+}
+.flex.justify-start {
+    justify-content: flex-start;
+}
+.flex.justify-end {
+    justify-content: flex-end;
+}
+/* Align items. */
+.flex.align-center {
+    align-items: center;
+}
+.flex.align-start {
+    align-items: flex-start;
+}
+.flex.align-end {
+    align-items: flex-end;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author-name" content="Anubhav Shavaran">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="./assets/Spotify_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main-container grid">
+        <div class="sidebar flex column justify-sp-bt align-start">
+            <div class="sidebar-top flex column justify-sp-bt align-start">
+                <img src="./assets/Spotify logo.png" title="Logo of Spotify" alt="Logo of Spotify">
+                <div class="sidebar-btns full-width flex column justify-center align-start">
+                    <div title="Home" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/home.svg" alt="Home">
+                        <p>Home</p>
+                    </div>
+                    <div title="Search" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/search-white.svg" alt="Search">
+                        <p>Search</p>
+                    </div>
+                    <div title="Your Library" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/library.svg" alt="Your Library">
+                        <p>Your Library</p>
+                    </div>
+                </div>
+                <div class="playlists full-width flex column justify-center align-start">
+                    <div title="Home" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/Plus-small.svg" alt="Home">
+                        <p>Create Playlist</p>
+                    </div>
+                    <div title="Search" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/Heart.svg" alt="Search">
+                        <p>Liked Songs</p>
+                    </div>
+                    <div title="Your Library" class="sidebar-btn full-width flex justify-start align-center">
+                        <img src="./assets/media-podcast.svg" alt="Your Library">
+                        <p>Your Episodes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-bottom flex justify-start align-center">
+                <img src="./assets/download.svg" alt="Dowload icon.">
+                <p>Install App</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-header flex justify-start align-center gap-10px">
+                <div class="header-btns flex justify-center align-center">
+                    <button title="Back button" type="button"> 
+                        <img src="./assets/arrow-left.svg" alt="">
+                    </button>
+                    <button title="Back button" type="button"> 
+                        <img src="./assets/arrow-right.svg" alt="">
+                    </button>
+                </div>
+                <div class="searchbar flex justify-start align-center">
+                    <img src="./assets/search.svg" alt="Search icon.">
+                    <input type="text" placeholder="Artists, songs, or podcasts">
+                </div>
+            </div>
+            <div class="content-banners full-width flex column justify-center align-start">
+                <div class="banner full-width flex column justify-center align-start">
+                    <p class="banner-title">Your top genres</p>
+                    <div class="full-width carousel-long flex justify-start align-center">
+                        <div class="carousel flex justify-start align-start">
+                            <p>Pop</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Hip-Hop</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Rock</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Jazz</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Classic</p>
+                        </div>
+                    </div>
+                    <button class="next-btn flex justify-center align-center" type="button" title="Next">
+                        <img src="./assets/arrow-right.svg" alt="Next Button">
+                    </button>
+                </div>
+                <div class="banner full-width flex column justify-center align-start">
+                    <p class="banner-title">Browse All</p>
+                    <div class="full-width carousel-small flex justify-start align-center">
+                        <div class="carousel flex justify-start align-start">
+                            <p>Podcasts</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Made For You</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Charts</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>New Releases</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Focus</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Workout</p>
+                        </div>
+                        <div class="carousel flex justify-start align-start">
+                            <p>Playlists</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar flex justify-start align-center">
+            <div class="album-info flex justify-start align-center">
+                <img class="album-cover" src="./assets/Con_Calma_album_cover.png" alt="Album Cover" title="Agar Tum Saath Ho">
+                <div class="album-name flex column justify-center align-start">
+                    <p>con calma</p>
+                    <p>daddy yankee</p>
+                </div>
+                <img class="like-btn" src="./assets/heart-green.svg" alt="Like Button" title="Like">
+            </div>
+            <div class="album-controls flex column justify-center align-center">
+                <div class="control-btns flex justify-center align-center">
+                    <img src="./assets/shuffle.svg" alt="">
+                    <img src="./assets/skip-previous.svg" alt="">
+                    <img src="./assets/play.svg" alt="">
+                    <img src="./assets/skip-forward.svg" alt="">
+                    <img src="./assets/repeat-all.svg" alt="">
+                </div>
+                <div class="slider flex justify-center align-center">
+                    <p>2:11</p>
+                    <div class="slider-duration"><div class="slider-thumb"></div></div>
+                    <p>2:42</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

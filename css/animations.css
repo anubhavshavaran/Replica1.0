@@ -1,0 +1,19 @@
+/* Animation for increasing the width. */
+@keyframes IncreaseWidthAnimation {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 600px;
+    }
+}
+
+/* Animation for rotation from 0deg to 360degw */
+@keyframes RotateAnimation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
